@@ -24,11 +24,13 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(this,LinearActivity.class);
         startActivity(intent);
     }
+
     public void gotoGridActivity(View v) {
         Intent intent = new Intent();
         intent.setClass(this,GridActivity.class);
         startActivity(intent);
     }
+
     public void gotoStaggeredGridActivity(View v) {
         Intent intent = new Intent();
         intent.setClass(this,StaggeredGridActivity.class);
@@ -58,16 +60,17 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(this, MultiHeaderActivity.class);
         startActivity(intent);
     }
+
     public void gotoItemDecorationActivity(View v) {
         Intent intent = new Intent();
         intent.setClass(this, ItemDecorationActivity.class);
         startActivity(intent);
     }
 
-
     public void gotoItemAlphaChangeActivity(View view) {
         Intent intent = new Intent();
         intent.setClass(this, AlphaChangeActivity.class);
         startActivity(intent);
     }
+
 }

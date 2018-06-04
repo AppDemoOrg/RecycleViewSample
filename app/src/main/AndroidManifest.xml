@@ -63,8 +63,7 @@
 
         <activity
             android:name=".ItemDecorationActivity"
-            android:theme="@style/SupportTheme">
-        </activity>
+            android:theme="@style/SupportTheme"></activity>
 
     </application>
 
